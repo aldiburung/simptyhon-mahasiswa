@@ -6,11 +6,12 @@ Aplikasi console-based untuk mengelola data mahasiswa pada Program Studi Sistem 
 
 ## Identitas
 
-Nama: [Nama Lengkap]
+Nama: [aldi sofyan sunandar]
 
-NIM: [NIM Anda]
+NIM: [20241320037]
 
-Kelas: [Kelas Praktikum]
+Kelas: [a1 labkom ukri
+]
 
 ## Fitur
 
@@ -73,3 +74,78 @@ tests/ Unit test
 [x] Paket terinstal via requirements.txt
 
 - [x] Program berjalan tanpa error
+Kelas: [Kelas Praktikum]
+
+## Fitur
+
+Tambah data mahasiswa (NIM, nama, prodi, angkatan, IPK)
+
+Tampilkan seluruh data dalam tabel
+
+Cari mahasiswa berdasarkan NIM
+
+Hapus data mahasiswa
+
+Validasi data input
+
+## Prasyarat
+
+Python 3.10+
+
+pip
+
+## Instalasi
+
+\\\bash
+
+git clone https://github.com/USERNAME/sim-mahasiswa.git
+
+cd sim-mahasiswa
+
+python3 m venv venv
+
+source venv/bin/activate
+
+# Linux/macOS
+
+pip install -r requirements.txt
+
+## Penggunaan
+
+\\\bash
+
+python -m src.main
+
+## Pengujian
+
+\\\bash
+
+pytest tests/ -v
+
+5641
+
+## Struktur Proyek
+
+src/models.py Model data Mahasiswa
+
+src/main.py Program utama & menu
+
+tests/ Unit test
+
+## Setup Checklist
+
+- [x] Python terinstal (versi:
+
+[x] Virtual environment dibuat & diaktivasi
+
+[x] Paket terinstal via requirements.txt
+
+[x] Program berjalan tanpa error
+
+[x] Unit test lulus
+
+[x] Repositori Git diinisiasi
+
+[x] Push ke GitHub berhasil
+
+-[x] README.md lengkap
